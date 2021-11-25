@@ -8,7 +8,7 @@ from glob import glob
 from heapq import heappop, heappush, heapify
 sys.path.append('resources')
 
-size_tweets = 10000
+size_tweets = 20000
 tp = TweetProccesor()
 
 class InvertedIndex:
